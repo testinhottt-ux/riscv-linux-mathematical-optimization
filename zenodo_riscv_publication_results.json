@@ -1,0 +1,16 @@
+{
+  "id": 23144554,
+  "conceptdoi": "10.5281/zenodo.23144293",
+  "doi": "10.5281/zenodo.23144554",
+  "doi_url": "https://doi.org/10.5281/zenodo.23144554",
+  "html_url": "https://zenodo.org/records/23144554",
+  "title": "Mathematical Optimization and Asymptotic Tuning of the RISC-V Ecosystem: From Synthesizable RTL Branch Prediction to QEMU JIT Trashing Mitigation and VirGL Acceleration",
+  "version": "2.0 (Visually Verified & Balanced)",
+  "published_at": "2026-10-04T20:09:59.347205+00:00",
+  "visual_verification": {
+    "status": "PASSED_ZERO_OVERLAPS",
+    "laplacian_var_min": 4300.0,
+    "overfull_hboxes": 0,
+    "balanced_columns": true
+  }
+}

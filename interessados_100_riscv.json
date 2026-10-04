@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "nome": "Tiago Maciel (Self-Verification)",
+    "email": "tiago@brmg.com.br",
+    "organizacao": "BRMG Research / Author",
+    "pais": "Brazil",
+    "area": "Systems Architecture & Verification",
+    "interesse_tecnico": "Audit and delivery confirmation of RISC-V mathematical optimization paper"
+  },
+  {
+    "id": 2,
+    "nome": "Palmer Dabbelt",
+    "email": "palmer@dabbelt.com",
+    "organizacao": "Linux Kernel RISC-V Subsystem Maintainer / Rivos",
+    "pais": "USA",
+    "area": "Linux Kernel RISC-V Architecture",
+    "interesse_tecnico": "Kernel memory subsystem tuning and instruction cache coherency on RV64"
+  },
+  {
+    "id": 3,
+    "nome": "Paul Walmsley",
+    "email": "paul.walmsley@sifive.com",
+    "organizacao": "SiFive / Linux Kernel RISC-V Maintainer",
+    "pais": "USA",
+    "area": "Kernel & Silicon Architecture",
+    "interesse_tecnico": "SiFive core architectural tuning and memory barrier optimizations"
+  },
+  {
+    "id": 4,
+    "nome": "Alistair Francis",
+    "email": "alistair.francis@wdc.com",
+    "organizacao": "Western Digital / QEMU RISC-V Subsystem Maintainer",
+    "pais": "USA",
+    "area": "Emulation & Virtualization",
+    "interesse_tecnico": "TCG translation block caching and dynamic binary translation performance"
+  },
+  {
+    "id": 5,
+    "nome": "Richard Henderson",
+    "email": "richard.henderson@linaro.org",
+    "organizacao": "Linaro / QEMU TCG Lead Maintainer",
+    "pais": "USA",
+    "area": "TCG Code Generation",
+    "interesse_tecnico": "Mitigation of TCG cache flush storms during browser execution"
+  },
+  {
+    "id": 6,
+    "nome": "Krste Asanovic",
+    "email": "krste@berkeley.edu",
+    "organizacao": "UC Berkeley ASPIRE Lab / SiFive Co-Founder",
+    "pais": "USA",
+    "area": "RISC-V Architecture Conception",
+    "interesse_tecnico": "Branch prediction RTL efficiency and open ISA scalability"
+  },
+  {
+    "id": 7,
+    "nome": "David Patterson",
+    "email": "pattrsn@cs.berkeley.edu",
+    "organizacao": "UC Berkeley / Turing Award Laureate",
+    "pais": "USA",
+    "area": "Computer Architecture & RISC Conception",
+    "interesse_tecnico": "Quantitative approach to branch prediction and instruction cache design"
+  },
+  {
+    "id": 8,
+    "nome": "Yunsup Lee",
+    "email": "yunsup@sifive.com",
+    "organizacao": "SiFive CTO & Co-Founder",
+    "pais": "USA",
+    "area": "Silicon IP & Core Microarchitecture",
+    "interesse_tecnico": "Synthesizable branch prediction in high-performance application cores"
+  },
+  {
+    "id": 9,
+    "nome": "Andrew Waterman",
+    "email": "andrew@sifive.com",
+    "organizacao": "SiFive Chief Engineer",
+    "pais": "USA",
+    "area": "RISC-V ISA Specifications",
+    "interesse_tecnico": "Branch prediction hints, compressed instructions, and MMU overheads"
+  },
+  {
+    "id": 10,
+    "nome": "Calista Redmond",
+    "email": "calista@riscv.org",
+    "organizacao": "RISC-V International CEO",
+    "pais": "Switzerland",
+    "area": "Ecosystem Strategy",
+    "interesse_tecnico": "Commercial adoption and academic dissemination of RISC-V IP"
+  },
+  {
+    "id": 11,
+    "nome": "Luca Benini",
+    "email": "lbenini@iis.ee.ethz.ch",
+    "organizacao": "ETH Zurich / PULP Platform Director",
+    "pais": "Switzerland",
+    "area": "Ultra-Low-Power RISC-V Parallel Architectures",
+    "interesse_tecnico": "Multi-core branch predictor Markov models and hardware acceleration"
+  },
+  {
+    "id": 12,
+    "nome": "Jim Keller",
+    "email": "keller@tenstorrent.com",
+    "organizacao": "Tenstorrent CEO",
+    "pais": "USA",
+    "area": "High-Performance RISC-V Compute & AI Cores",
+    "interesse_tecnico": "Speculative execution, branch predictability, and out-of-order engines"
+  },
+  {
+    "id": 13,
+    "nome": "Dave Ditzel",
+    "email": "ditzel@esperanto.ai",
+    "organizacao": "Esperanto Technologies Founder & CEO",
+    "pais": "USA",
+    "area": "Massive Many-Core Energy-Efficient RISC-V",
+    "interesse_tecnico": "FSM state minimization and branch history table area scaling"
+  },
+  {
+    "id": 14,
+    "nome": "Balaji Baktha",
+    "email": "balaji@ventanamicro.com",
+    "organizacao": "Ventana Micro Systems CEO",
+    "pais": "USA",
+    "area": "Data Center High-Performance RISC-V Chiplets",
+    "interesse_tecnico": "Server-grade Linux desktop performance and memory compression"
+  },
+  {
+    "id": 15,
+    "nome": "Charlie Hauck",
+    "email": "charlie@bluespec.com",
+    "organizacao": "Bluespec Inc. CEO",
+    "pais": "USA",
+    "area": "High-Level Synthesis & RISC-V IP",
+    "interesse_tecnico": "Verilog-2001 verification and branch prediction state machines"
+  },
+  {
+    "id": 16,
+    "nome": "Karel Miko",
+    "email": "kmiko@codasip.com",
+    "organizacao": "Codasip CTO",
+    "pais": "Germany",
+    "area": "Customizable Processor IP & Architecture Description",
+    "interesse_tecnico": "Bimodal saturating counter integration and profiling automation"
+  },
+  {
+    "id": 17,
+    "nome": "Roger Espasa",
+    "email": "roger.espasa@semidynamics.com",
+    "organizacao": "Semidynamics CEO",
+    "pais": "Spain",
+    "area": "RISC-V Vector Processing & Core IP",
+    "interesse_tecnico": "Vector register utilization and dynamic branch prediction efficiency"
+  },
+  {
+    "id": 18,
+    "nome": "Alexander Redkin",
+    "email": "redkin@syntacore.com",
+    "organizacao": "Syntacore CEO",
+    "pais": "Cyprus",
+    "area": "Commercial RISC-V Processor Cores",
+    "interesse_tecnico": "Synthesizable branch predictor timing closure and ASIC area"
+  },
+  {
+    "id": 19,
+    "nome": "Alex Bradbury",
+    "email": "asb@asbradbury.org",
+    "organizacao": "lowRISC Co-Founder & CTO",
+    "pais": "UK",
+    "area": "Open Source Silicon & LLVM Compiler Backend",
+    "interesse_tecnico": "Compiler branch probability annotations and hardware predictor synergy"
+  },
+  {
+    "id": 20,
+    "nome": "Rob Oshana",
+    "email": "roshana@chipsalliance.org",
+    "organizacao": "CHIPS Alliance Chairman",
+    "pais": "USA",
+    "area": "Open Hardware Collaboration",
+    "interesse_tecnico": "Open-source synthesizable Verilog modules and testbench standards"
+  },
+  {
+    "id": 21,
+    "nome": "Thomas Petazzoni",
+    "email": "thomas.petazzoni@bootlin.com",
+    "organizacao": "Bootlin CTO / Buildroot Lead",
+    "pais": "France",
+    "area": "Embedded Linux on RISC-V",
+    "interesse_tecnico": "Rootfs optimization, ext4 filesystem tuning, and fast boot times"
+  },
+  {
+    "id": 22,
+    "nome": "Drew Fustini",
+    "email": "drew@beagleboard.org",
+    "organizacao": "BeagleBoard.org / RISC-V Ambassador",
+    "pais": "USA",
+    "area": "Open Source Hardware Platforms",
+    "interesse_tecnico": "BeagleV desktop Linux experience and graphical performance"
+  },
+  {
+    "id": 23,
+    "nome": "Aurelien Jarno",
+    "email": "aurel32@debian.org",
+    "organizacao": "Debian RISC-V Architecture Lead Porter",
+    "pais": "France",
+    "area": "Debian Distribution on RISC-V",
+    "interesse_tecnico": "Debian 13 (Trixie) RISC-V desktop responsiveness and package stability"
+  },
+  {
+    "id": 24,
+    "nome": "Heinrich Schuchardt",
+    "email": "heinrich.schuchardt@canonical.com",
+    "organizacao": "Canonical Ubuntu RISC-V Lead",
+    "pais": "Germany",
+    "area": "Ubuntu Linux on RISC-V",
+    "interesse_tecnico": "Fast guest boot and graphics stack acceleration under virtualization"
+  },
+  {
+    "id": 25,
+    "nome": "David Abdurachmanov",
+    "email": "david.abdurachmanov@gmail.com",
+    "organizacao": "Red Hat RISC-V Architecture Specialist",
+    "pais": "USA",
+    "area": "Enterprise Linux for RISC-V",
+    "interesse_tecnico": "QEMU emulation throughput and server workload acceleration"
+  },
+  {
+    "id": 26,
+    "nome": "Gerd Hoffmann",
+    "email": "kraxel@redhat.com",
+    "organizacao": "Red Hat / VirGL 3D Virtualization Architect",
+    "pais": "Germany",
+    "area": "Virtual Graphics & Mesa Drivers",
+    "interesse_tecnico": "VirGL Mesa driver hardware 3D throughput on emulated RISC-V guests"
+  },
+  {
+    "id": 27,
+    "nome": "Dave Airlie",
+    "email": "airlied@redhat.com",
+    "organizacao": "Red Hat Direct Rendering Infrastructure Lead",
+    "pais": "Australia",
+    "area": "DRM & VirGL OpenGL Acceleration",
+    "interesse_tecnico": "Elimination of software rendering bottlenecks on virtual displays"
+  },
+  {
+    "id": 28,
+    "nome": "Arvind Krishnamurthy",
+    "email": "arvind@cs.washington.edu",
+    "organizacao": "University of Washington Systems Lab",
+    "pais": "USA",
+    "area": "Distributed Systems & Memory Caching",
+    "interesse_tecnico": "ZRAM entropy compression and low-latency virtual swap algorithms"
+  },
+  {
+    "id": 29,
+    "nome": "Mateo Valero",
+    "email": "mateo.valero@bsc.es",
+    "organizacao": "Barcelona Supercomputing Center (BSC) Director",
+    "pais": "Spain",
+    "area": "European Processor Initiative (EPI) / High-Performance RISC-V",
+    "interesse_tecnico": "HPC microarchitectural branch prediction and hardware acceleration"
+  },
+  {
+    "id": 30,
+    "nome": "Ricardo Menotti",
+    "email": "menotti@ufscar.br",
+    "organizacao": "Universidade Federal de São Carlos (UFSCar) / LightRISCV Author",
+    "pais": "Brazil",
+    "area": "Reconfigurable Computing & Microprocessors",
+    "interesse_tecnico": "LightRISCV FSM minimization and branch predictor integration"
+  },
+  {
+    "id": 31,
+    "nome": "ClickHouse Inc. Technical Architecture Team",
+    "email": "engineering@clickhouse.com",
+    "organizacao": "ClickHouse Inc.",
+    "pais": "USA",
+    "area": "Time-Series & Analytics DB",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Petabyte-scale columnar storage footprint and network egress costs)"
+  },
+  {
+    "id": 32,
+    "nome": "Timescale Inc. Technical Architecture Team",
+    "email": "partnerships@timescale.com",
+    "organizacao": "Timescale Inc.",
+    "pais": "USA",
+    "area": "Time-Series PostgreSQL",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Native chunk compression in PostgreSQL hypertables)"
+  },
+  {
+    "id": 33,
+    "nome": "InfluxData (InfluxDB) Technical Architecture Team",
+    "email": "partner-team@influxdata.com",
+    "organizacao": "InfluxData (InfluxDB)",
+    "pais": "USA",
+    "area": "Time-Series Platform",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Outperforming Gorilla/Snappy on continuous numeric telemetry)"
+  },
+  {
+    "id": 34,
+    "nome": "QuestDB Technical Architecture Team",
+    "email": "tech@questdb.io",
+    "organizacao": "QuestDB",
+    "pais": "UK",
+    "area": "Ultra-Fast SQL Time-Series",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Compression ratio on high-frequency double/float columns)"
+  },
+  {
+    "id": 35,
+    "nome": "VictoriaMetrics Technical Architecture Team",
+    "email": "info@victoriametrics.com",
+    "organizacao": "VictoriaMetrics",
+    "pais": "EUA/Ucrânia",
+    "area": "High-Efficiency Metrics DB",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Extreme compression of Prometheus metrics in massive clusters)"
+  },
+  {
+    "id": 36,
+    "nome": "DuckDB Labs Technical Architecture Team",
+    "email": "contact@duckdblabs.com",
+    "organizacao": "DuckDB Labs",
+    "pais": "Holanda",
+    "area": "Analytical In-Process DB",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Ultra-compact numeric encoders for Parquet/DuckDB columnar formats)"
+  },
+  {
+    "id": 37,
+    "nome": "ScyllaDB Technical Architecture Team",
+    "email": "partners@scylladb.com",
+    "organizacao": "ScyllaDB",
+    "pais": "USA",
+    "area": "NoSQL High-Throughput DB",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (NVMe disk I/O reduction via SIMD vectorized decompression)"
+  },
+  {
+    "id": 38,
+    "nome": "CrateDB Technical Architecture Team",
+    "email": "engineering@crate.io",
+    "organizacao": "CrateDB",
+    "pais": "Alemanha",
+    "area": "Industrial IoT & Time-Series DB",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Massive industrial sensor ingestion and columnar compression)"
+  },
+  {
+    "id": 39,
+    "nome": "Cockroach Labs Technical Architecture Team",
+    "email": "partners@cockroachlabs.com",
+    "organizacao": "Cockroach Labs",
+    "pais": "USA",
+    "area": "Distributed SQL Database",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (WAN replication reduction for numeric transactional data)"
+  },
+  {
+    "id": 40,
+    "nome": "SingleStore Technical Architecture Team",
+    "email": "tech-partners@singlestore.com",
+    "organizacao": "SingleStore",
+    "pais": "USA",
+    "area": "Real-Time Distributed SQL",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (In-memory column compaction and storage tiering)"
+  },
+  {
+    "id": 41,
+    "nome": "StarRocks (CelerData) Technical Architecture Team",
+    "email": "partners@starrocks.io",
+    "organizacao": "StarRocks (CelerData)",
+    "pais": "USA",
+    "area": "Real-Time MPP Engine",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Query cost optimization over massive telemetry datasets)"
+  },
+  {
+    "id": 42,
+    "nome": "StarTree (Apache Pinot) Technical Architecture Team",
+    "email": "alliances@startree.ai",
+    "organizacao": "StarTree (Apache Pinot)",
+    "pais": "USA",
+    "area": "User-Facing Real-Time Analytics",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Analytical data segment footprint reduction)"
+  },
+  {
+    "id": 43,
+    "nome": "Imply (Apache Druid) Technical Architecture Team",
+    "email": "partnerships@imply.io",
+    "organizacao": "Imply (Apache Druid)",
+    "pais": "USA",
+    "area": "Interactive Analytics",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Deep storage footprint reduction in AWS S3)"
+  },
+  {
+    "id": 44,
+    "nome": "DataStax (Apache Cassandra) Technical Architecture Team",
+    "email": "alliances@datastax.com",
+    "organizacao": "DataStax (Apache Cassandra)",
+    "pais": "USA",
+    "area": "Real-Time GenAI & Data Platform",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (SSTable compression in distributed database engines)"
+  },
+  {
+    "id": 45,
+    "nome": "Redis Ltd Technical Architecture Team",
+    "email": "alliances@redis.com",
+    "organizacao": "Redis Ltd",
+    "pais": "USA",
+    "area": "Real-Time In-Memory DB",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (High-ratio compression module for RedisTimeSeries)"
+  },
+  {
+    "id": 46,
+    "nome": "PingCAP (TiDB) Technical Architecture Team",
+    "email": "info@pingcap.com",
+    "organizacao": "PingCAP (TiDB)",
+    "pais": "USA",
+    "area": "Distributed HTAP Database",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Storage space reduction in TiKV and TiFlash columnar nodes)"
+  },
+  {
+    "id": 47,
+    "nome": "Yugabyte Technical Architecture Team",
+    "email": "partners@yugabyte.com",
+    "organizacao": "Yugabyte",
+    "pais": "USA",
+    "area": "Distributed PostgreSQL",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Numeric index and dataset compression)"
+  },
+  {
+    "id": 48,
+    "nome": "Yellowbrick Data Technical Architecture Team",
+    "email": "info@yellowbrick.com",
+    "organizacao": "Yellowbrick Data",
+    "pais": "USA",
+    "area": "Data Warehouse for Analytics",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Maximizing I/O throughput in analytical database queries)"
+  },
+  {
+    "id": 49,
+    "nome": "Teradata Technical Architecture Team",
+    "email": "partners@teradata.com",
+    "organizacao": "Teradata",
+    "pais": "USA",
+    "area": "Enterprise Cloud Analytics",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Vantage cloud storage cost reduction on AWS/Azure)"
+  },
+  {
+    "id": 50,
+    "nome": "MongoDB Inc. Technical Architecture Team",
+    "email": "partners@mongodb.com",
+    "organizacao": "MongoDB Inc.",
+    "pais": "USA",
+    "area": "Document & Time-Series DB",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Time-series collections with compression superior to Snappy/zlib)"
+  },
+  {
+    "id": 51,
+    "nome": "Datadog Technical Architecture Team",
+    "email": "alliances@datadoghq.com",
+    "organizacao": "Datadog",
+    "pais": "USA",
+    "area": "Cloud Observability & Security",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Multi-million dollar S3 savings on metrics and log storage)"
+  },
+  {
+    "id": 52,
+    "nome": "Splunk (Cisco) Technical Architecture Team",
+    "email": "techpartners@splunk.com",
+    "organizacao": "Splunk (Cisco)",
+    "pais": "USA",
+    "area": "Enterprise Security & Observability",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Drastic SmartStore index storage footprint reduction)"
+  },
+  {
+    "id": 53,
+    "nome": "Dynatrace Technical Architecture Team",
+    "email": "partners@dynatrace.com",
+    "organizacao": "Dynatrace",
+    "pais": "USA",
+    "area": "AI-Powered Observability",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Grail data lakehouse storage and retention efficiency)"
+  },
+  {
+    "id": 54,
+    "nome": "New Relic Technical Architecture Team",
+    "email": "alliances@newrelic.com",
+    "organizacao": "New Relic",
+    "pais": "USA",
+    "area": "All-in-One Observability Platform",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (NRDB numeric telemetry and cost reduction per ingested GB)"
+  },
+  {
+    "id": 55,
+    "nome": "Grafana Labs Technical Architecture Team",
+    "email": "partners@grafana.com",
+    "organizacao": "Grafana Labs",
+    "pais": "USA",
+    "area": "Open Observability (Mimir/Loki)",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Chunk compression in Grafana Mimir and Loki object storage)"
+  },
+  {
+    "id": 56,
+    "nome": "Elastic Technical Architecture Team",
+    "email": "partnerships@elastic.co",
+    "organizacao": "Elastic",
+    "pais": "USA",
+    "area": "Search, Observability & Security",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Lucene doc values and time-series index compression)"
+  },
+  {
+    "id": 57,
+    "nome": "Chronosphere Technical Architecture Team",
+    "email": "partners@chronosphere.io",
+    "organizacao": "Chronosphere",
+    "pais": "USA",
+    "area": "Cloud-Native Observability",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Cloud telemetry volume and egress cost control)"
+  },
+  {
+    "id": 58,
+    "nome": "Honeycomb.io Technical Architecture Team",
+    "email": "sales-team@honeycomb.io",
+    "organizacao": "Honeycomb.io",
+    "pais": "USA",
+    "area": "High-Cardinality Observability",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (High-cardinality trace storage and numeric column compaction)"
+  },
+  {
+    "id": 59,
+    "nome": "Sumo Logic Technical Architecture Team",
+    "email": "partners@sumologic.com",
+    "organizacao": "Sumo Logic",
+    "pais": "USA",
+    "area": "SaaS Log Analytics & SIEM",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Multi-cloud log ingestion pipeline compression)"
+  },
+  {
+    "id": 60,
+    "nome": "Coralogix Technical Architecture Team",
+    "email": "info@coralogix.com",
+    "organizacao": "Coralogix",
+    "pais": "Israel/EUA",
+    "area": "Streaming Observability Platform",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Stream log and metric analytics without prohibitive retention costs)"
+  },
+  {
+    "id": 61,
+    "nome": "Logz.io Technical Architecture Team",
+    "email": "partners@logz.io",
+    "organizacao": "Logz.io",
+    "pais": "USA",
+    "area": "Open Source Observability",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Telemetry storage cost reduction for enterprise customers)"
+  },
+  {
+    "id": 62,
+    "nome": "Mezmo (formerly LogDNA) Technical Architecture Team",
+    "email": "partners@mezmo.com",
+    "organizacao": "Mezmo (formerly LogDNA)",
+    "pais": "USA",
+    "area": "Telemetry Data Pipeline",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Telemetry stream transformation and lossless compression)"
+  },
+  {
+    "id": 63,
+    "nome": "Cribl Technical Architecture Team",
+    "email": "alliances@cribl.io",
+    "organizacao": "Cribl",
+    "pais": "USA",
+    "area": "Observability Pipeline & Lake",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Cribl Stream and Cribl Lake data footprint reduction)"
+  },
+  {
+    "id": 64,
+    "nome": "Calyptia (Fluent Bit) Technical Architecture Team",
+    "email": "hello@calyptia.com",
+    "organizacao": "Calyptia (Fluent Bit)",
+    "pais": "USA",
+    "area": "Telemetry Processing Engine",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Ultra-lightweight compression plugin for edge agents)"
+  },
+  {
+    "id": 65,
+    "nome": "SolarWinds Technical Architecture Team",
+    "email": "partners@solarwinds.com",
+    "organizacao": "SolarWinds",
+    "pais": "USA",
+    "area": "IT Infrastructure Monitoring",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Historical server and network performance storage)"
+  },
+  {
+    "id": 66,
+    "nome": "LogicMonitor Technical Architecture Team",
+    "email": "partners@logicmonitor.com",
+    "organizacao": "LogicMonitor",
+    "pais": "USA",
+    "area": "Automated Hybrid Monitoring",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Infrastructure time-series retention and optimization)"
+  },
+  {
+    "id": 67,
+    "nome": "Catchpoint Technical Architecture Team",
+    "email": "partnerships@catchpoint.com",
+    "organizacao": "Catchpoint",
+    "pais": "USA",
+    "area": "Internet Performance Monitoring",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Global latency telemetry and synthetic monitoring storage)"
+  },
+  {
+    "id": 68,
+    "nome": "Kentik Technical Architecture Team",
+    "email": "partners@kentik.com",
+    "organizacao": "Kentik",
+    "pais": "USA",
+    "area": "Network Observability Platform",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (High-volume NetFlow/sFlow network stream compaction)"
+  },
+  {
+    "id": 69,
+    "nome": "ThousandEyes (Cisco) Technical Architecture Team",
+    "email": "alliances@thousandeyes.com",
+    "organizacao": "ThousandEyes (Cisco)",
+    "pais": "USA",
+    "area": "Digital Experience Monitoring",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Network route storage and BGP routing metrics)"
+  },
+  {
+    "id": 70,
+    "nome": "AppDynamics (Cisco) Technical Architecture Team",
+    "email": "partners@appdynamics.com",
+    "organizacao": "AppDynamics (Cisco)",
+    "pais": "USA",
+    "area": "Application Performance Monitoring",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Enterprise transaction telemetry footprint reduction)"
+  },
+  {
+    "id": 71,
+    "nome": "Bloomberg LP Technical Architecture Team",
+    "email": "marketdata@bloomberg.net",
+    "organizacao": "Bloomberg LP",
+    "pais": "USA",
+    "area": "Financial Data & Analytics",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Tick-by-tick market data and order history compression)"
+  },
+  {
+    "id": 72,
+    "nome": "LSEG (London Stock Exchange Group) Technical Architecture Team",
+    "email": "partnerprogramme@lseg.com",
+    "organizacao": "LSEG (London Stock Exchange Group)",
+    "pais": "UK",
+    "area": "Exchange & Financial Data",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Global market data feeds and pricing time series)"
+  },
+  {
+    "id": 73,
+    "nome": "FactSet Technical Architecture Team",
+    "email": "partnerships@factset.com",
+    "organizacao": "FactSet",
+    "pais": "USA",
+    "area": "Financial Data Solutions",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Historical quote archiving and quantitative analytics)"
+  },
+  {
+    "id": 74,
+    "nome": "S&P Global Market Intelligence Technical Architecture Team",
+    "email": "marketintelligence@spglobal.com",
+    "organizacao": "S&P Global Market Intelligence",
+    "pais": "USA",
+    "area": "Financial Market Intelligence",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Commodity, equity, and derivative data lakehouse efficiency)"
+  },
+  {
+    "id": 75,
+    "nome": "Morningstar Technical Architecture Team",
+    "email": "data-solutions@morningstar.com",
+    "organizacao": "Morningstar",
+    "pais": "USA",
+    "area": "Investment Research & Data",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Global asset and fund performance historical data)"
+  },
+  {
+    "id": 76,
+    "nome": "CME Group Technical Architecture Team",
+    "email": "marketdata@cmegroup.com",
+    "organizacao": "CME Group",
+    "pais": "USA",
+    "area": "Derivatives Marketplace",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Real-time market data distribution and historical archives)"
+  },
+  {
+    "id": 77,
+    "nome": "Nasdaq Technology Technical Architecture Team",
+    "email": "technologysales@nasdaq.com",
+    "organizacao": "Nasdaq Technology",
+    "pais": "USA",
+    "area": "Financial Infrastructure & Data",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (ITCH/OUCH market order storage and replay acceleration)"
+  },
+  {
+    "id": 78,
+    "nome": "Intercontinental Exchange (ICE) Technical Architecture Team",
+    "email": "dataservices@ice.com",
+    "organizacao": "Intercontinental Exchange (ICE)",
+    "pais": "USA",
+    "area": "Market Infrastructure",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Energy, commodity, and FX tick history compression)"
+  },
+  {
+    "id": 79,
+    "nome": "Citadel Securities Technical Architecture Team",
+    "email": "tech-inquiries@citadelsecurities.com",
+    "organizacao": "Citadel Securities",
+    "pais": "USA",
+    "area": "Quantitative Market Maker",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Ultra-compact Level 3 (L3) order book storage)"
+  },
+  {
+    "id": 80,
+    "nome": "Two Sigma Technical Architecture Team",
+    "email": "contact@twosigma.com",
+    "organizacao": "Two Sigma",
+    "pais": "USA",
+    "area": "Quantitative Hedge Fund",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Petabyte-scale quantitative backtesting data storage)"
+  },
+  {
+    "id": 81,
+    "nome": "Jane Street Technical Architecture Team",
+    "email": "tech-contact@janestreet.com",
+    "organizacao": "Jane Street",
+    "pais": "USA",
+    "area": "Proprietary Trading & Tech",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (High-throughput OCaml/C compression for market feeds)"
+  },
+  {
+    "id": 82,
+    "nome": "Jump Trading Technical Architecture Team",
+    "email": "info@jumptrading.com",
+    "organizacao": "Jump Trading",
+    "pais": "USA",
+    "area": "High-Frequency Trading",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Memory bus optimization and sub-microsecond decompression)"
+  },
+  {
+    "id": 83,
+    "nome": "Virtu Financial Technical Architecture Team",
+    "email": "info@virtu.com",
+    "organizacao": "Virtu Financial",
+    "pais": "USA",
+    "area": "Electronic Market Making",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Regulatory trade execution records archiving)"
+  },
+  {
+    "id": 84,
+    "nome": "Hudson River Trading (HRT) Technical Architecture Team",
+    "email": "inquiries@hudsonrivertrading.com",
+    "organizacao": "Hudson River Trading (HRT)",
+    "pais": "USA",
+    "area": "Quantitative Trading",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Numeric time-series compaction for financial machine learning)"
+  },
+  {
+    "id": 85,
+    "nome": "D.E. Shaw & Co. Technical Architecture Team",
+    "email": "tech-recruiting@deshaw.com",
+    "organizacao": "D.E. Shaw & Co.",
+    "pais": "USA",
+    "area": "Global Investment & Technology",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Global macroeconomic time-series storage)"
+  },
+  {
+    "id": 86,
+    "nome": "Renaissance Technologies Technical Architecture Team",
+    "email": "inquiries@rentec.com",
+    "organizacao": "Renaissance Technologies",
+    "pais": "USA",
+    "area": "Quantitative Investing",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Predictive modeling on high-density historical financial data)"
+  },
+  {
+    "id": 87,
+    "nome": "Millennium Management Technical Architecture Team",
+    "email": "technology@mlp.com",
+    "organizacao": "Millennium Management",
+    "pais": "USA",
+    "area": "Global Alternative Investment",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Multi-strategy quantitative portfolio data management)"
+  },
+  {
+    "id": 88,
+    "nome": "Point72 Technical Architecture Team",
+    "email": "info@point72.com",
+    "organizacao": "Point72",
+    "pais": "USA",
+    "area": "Discretionary & Systematic Investing",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Market data pipelines for quantitative researchers)"
+  },
+  {
+    "id": 89,
+    "nome": "B3 (Brasil, Bolsa, Balcão) Technical Architecture Team",
+    "email": "marketdata@b3.com.br",
+    "organizacao": "B3 (Brasil, Bolsa, Balcão)",
+    "pais": "Brasil",
+    "area": "Brazilian Stock Exchange & Financial Market Infrastructure",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (B3 market data distribution and trade telemetry archiving)"
+  },
+  {
+    "id": 90,
+    "nome": "BTG Pactual Quant Technical Architecture Team",
+    "email": "assetmanagement@btgpactual.com",
+    "organizacao": "BTG Pactual Quant",
+    "pais": "Brasil",
+    "area": "Investment Banking & Asset Management",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Quantitative model simulation and fixed-income storage)"
+  },
+  {
+    "id": 91,
+    "nome": "Cloudflare Technical Architecture Team",
+    "email": "partnerships@cloudflare.com",
+    "organizacao": "Cloudflare",
+    "pais": "USA",
+    "area": "Edge Network & Cloud Storage (R2)",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Egress cost elimination and native compression in Cloudflare R2)"
+  },
+  {
+    "id": 92,
+    "nome": "Fastly Technical Architecture Team",
+    "email": "partners@fastly.com",
+    "organizacao": "Fastly",
+    "pais": "USA",
+    "area": "Edge Cloud & CDN",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Real-time edge log compression and streaming data)"
+  },
+  {
+    "id": 93,
+    "nome": "Akamai Technologies Technical Architecture Team",
+    "email": "partner-program@akamai.com",
+    "organizacao": "Akamai Technologies",
+    "pais": "USA",
+    "area": "Content Delivery & Cloud Security",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Global telemetry traffic optimization and CDN edge caching)"
+  },
+  {
+    "id": 94,
+    "nome": "Backblaze Technical Architecture Team",
+    "email": "partners@backblaze.com",
+    "organizacao": "Backblaze",
+    "pais": "USA",
+    "area": "B2 Cloud Storage",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Cost differentiation per stored GB in cloud backups)"
+  },
+  {
+    "id": 95,
+    "nome": "Wasabi Technologies Technical Architecture Team",
+    "email": "partners@wasabi.com",
+    "organizacao": "Wasabi Technologies",
+    "pais": "USA",
+    "area": "Hot Cloud Storage",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Margin maximization per stored PB without egress fees)"
+  },
+  {
+    "id": 96,
+    "nome": "MinIO Technical Architecture Team",
+    "email": "partners@min.io",
+    "organizacao": "MinIO",
+    "pais": "USA",
+    "area": "High-Performance Object Storage",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Native high-performance compression for S3-compatible clusters)"
+  },
+  {
+    "id": 97,
+    "nome": "Pure Storage Technical Architecture Team",
+    "email": "partners@purestorage.com",
+    "organizacao": "Pure Storage",
+    "pais": "USA",
+    "area": "Enterprise All-Flash Storage",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Data reduction ratios on FlashBlade arrays for telemetry and AI)"
+  },
+  {
+    "id": 98,
+    "nome": "NetApp Technical Architecture Team",
+    "email": "ng-partners@netapp.com",
+    "organizacao": "NetApp",
+    "pais": "USA",
+    "area": "Intelligent Data Infrastructure",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (Data compaction in ONTAP for cloud and hybrid storage)"
+  },
+  {
+    "id": 99,
+    "nome": "Dell Technologies Technical Architecture Team",
+    "email": "oem_solutions@dell.com",
+    "organizacao": "Dell Technologies",
+    "pais": "USA",
+    "area": "Enterprise Infrastructure & Storage",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (PowerStore and PowerMax storage data reduction ratios)"
+  },
+  {
+    "id": 100,
+    "nome": "Scaleway Technical Architecture Team",
+    "email": "partners@scaleway.com",
+    "organizacao": "Scaleway",
+    "pais": "França",
+    "area": "European Cloud Provider",
+    "interesse_tecnico": "RISC-V server deployment, high-throughput virtualization, and memory compression (European data sovereignty and Object Storage efficiency)"
+  }
+]

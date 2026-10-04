@@ -1,0 +1,44 @@
+# Exclusão estrita solicitada pelo usuário
+pc/
+
+# Regra de governança: Proibição estrita de upload de arquivos Markdown (.md) para o GitHub
+*.md
+*ag*.md
+@ag*.md
+ag*.md
+
+# Imagens de disco binárias e arquivos de grande porte (> 50MB)
+*.ext4
+*.img
+*.iso
+*.tar.gz
+*.tar.xz
+*.cpio.gz
+debian_root.ext4
+rootfs.ext4
+rootfs/
+Image
+vmlinux
+debian-rootfs/
+modules_backup/
+tiny_initramfs/
+
+# Dumps de simulação de hardware e arquivos intermediários
+*.vcd
+*.vvp
+*.out
+dump.vcd
+soc_waveform.vcd
+
+# Arquivos de log e cache temporários
+*.log
+*.aux
+*.tmp
+__pycache__/
+*.pyc
+
+# Tokens e credenciais sensíveis
+*token*
+*.key
+.env
+67108874

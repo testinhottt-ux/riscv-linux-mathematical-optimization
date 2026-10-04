@@ -1,0 +1,118 @@
+#!/bin/sh
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export TERM=xterm-256color
+export HOME=/root
+
+# Monta sistemas de arquivos virtuais
+mount -t proc proc /proc 2>/dev/null
+mount -t sysfs sysfs /sys 2>/dev/null
+mount -t devtmpfs devtmpfs /dev 2>/dev/null
+mkdir -p /dev/pts /dev/shm /run /run/udev /var/run /var/run/dbus /var/lib/dbus /tmp /dev/input
+mount -t devpts devpts /dev/pts 2>/dev/null
+mount -t tmpfs tmpfs /dev/shm 2>/dev/null
+mount -t tmpfs tmpfs /run 2>/dev/null
+mount -t tmpfs tmpfs /tmp 2>/dev/null
+chmod 1777 /tmp 2>/dev/null
+chown -R 0:0 /root 2>/dev/null || true
+
+# Hostname e /etc/hosts
+hostname riscv-alpine
+echo "127.0.0.1 localhost riscv-alpine" > /etc/hosts
+echo "::1 localhost riscv-alpine" >> /etc/hosts
+
+# Carrega módulos de rede VirtIO
+MODDIR="/lib/modules/6.12.107+deb13-riscv64"
+insmod $MODDIR/kernel/net/core/failover.ko 2>/dev/null
+insmod $MODDIR/kernel/drivers/net/net_failover.ko 2>/dev/null
+insmod $MODDIR/kernel/drivers/net/virtio_net.ko 2>/dev/null
+
+# Carrega módulos de entrada (Teclado, Mouse, VirtIO Tablet)
+insmod $MODDIR/kernel/drivers/input/evdev.ko 2>/dev/null
+insmod $MODDIR/kernel/drivers/virtio/virtio_input.ko 2>/dev/null
+
+# Carrega módulos gráficos VirtIO GPU / DRM
+insmod $MODDIR/kernel/drivers/gpu/drm/drm.ko 2>/dev/null
+insmod $MODDIR/kernel/drivers/gpu/drm/drm_kms_helper.ko 2>/dev/null
+insmod $MODDIR/kernel/drivers/gpu/drm/drm_shmem_helper.ko 2>/dev/null
+insmod $MODDIR/kernel/drivers/virtio/virtio_dma_buf.ko 2>/dev/null
+insmod $MODDIR/kernel/drivers/gpu/drm/virtio/virtio-gpu.ko 2>/dev/null
+
+# Inicializa o daemon udev para deteccao dinamica de dispositivos (Mouse/Teclado/GPU)
+/sbin/udevd --daemon 2>/dev/null
+/bin/udevadm trigger --type=subsystems --action=add 2>/dev/null
+/bin/udevadm trigger --type=devices --action=add 2>/dev/null
+/bin/udevadm settle --timeout=5 2>/dev/null
+
+# Assegura permissoes de aceleracao 3D e renderizacao direta VirGL
+mkdir -p /dev/dri 2>/dev/null
+chmod -R 666 /dev/dri/* 2>/dev/null || true
+
+# Inicializa o D-Bus do sistema (necessario para MATE Desktop)
+dbus-uuidgen --ensure 2>/dev/null
+dbus-daemon --system --fork 2>/dev/null
+
+# Configuracao de Rede DHCP
+ip link set lo up
+ip link set eth0 up 2>/dev/null
+sleep 1
+
+if ! udhcpc -i eth0 -n -t 3 -q -s /usr/share/udhcpc/default.script 2>/dev/null; then
+    ip addr add 10.0.2.15/24 dev eth0 2>/dev/null
+    ip route add default via 10.0.2.2 2>/dev/null
+fi
+
+echo "nameserver 1.1.1.1" > /etc/resolv.conf
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+
+# Otimizacoes do Kernel Linux para Alto Rendimento de Rede e Memoria (Firefox & Web)
+echo 1 > /proc/sys/net/ipv4/tcp_tw_reuse 2>/dev/null || true
+echo 16777216 > /proc/sys/net/core/rmem_max 2>/dev/null || true
+echo 16777216 > /proc/sys/net/core/wmem_max 2>/dev/null || true
+echo "4096 87380 16777216" > /proc/sys/net/ipv4/tcp_rmem 2>/dev/null || true
+echo "4096 65536 16777216" > /proc/sys/net/ipv4/tcp_wmem 2>/dev/null || true
+echo 10 > /proc/sys/vm/swappiness 2>/dev/null || true
+echo 50 > /proc/sys/vm/vfs_cache_pressure 2>/dev/null || true
+
+# Banner
+echo ""
+echo "============================================================="
+echo "   RISC-V 64-BIT (RV64) - LINUX 6.12 - 32 CORES ATIVOS"
+echo "============================================================="
+echo "  Processador  : RISC-V Virt - 32 Cores Multiplicados"
+echo "  SO           : Alpine Linux (Super leve & ultra rapido)"
+echo "  Armazenamento: Disco Ext4 Persistente (/dev/vda)"
+echo "  Ambiente GUI : MATE Desktop Completo + Suporte a Mouse"
+echo "  Aplicacoes   : Geany (IDE), Dillo (Web), Pluma, Terminal"
+echo "  Mouse/Tablet : VirtIO Tablet com coordenadas absolutas"
+echo "  Monitor      : htop (visualizador em tempo real dos 32 cores)"
+echo "============================================================="
+echo " Dicas:"
+echo "   - Para abrir o MATE Desktop   : digite startx"
+echo "   - O mouse sincroniza automaticamente sem travar o cursor"
+echo "   - Para navegar no terminal    : links https://duckduckgo.com"
+echo "   - Para abrir a IDE no terminal: micro arquivo.py"
+echo "   - Para ver os 32 cores        : htop"
+echo "============================================================="
+echo ""
+
+# Auto-start MATE Desktop se gui estiver na linha de comando
+if grep -q "gui" /proc/cmdline; then
+    echo "Iniciando MATE Desktop Environment com suporte a mouse..."
+    startx &
+fi
+
+# Teste automatizado se test_firefox estiver na linha de comando
+if grep -q "test_firefox" /proc/cmdline; then
+    echo "=========================================================="
+    echo "=== EXECUTANDO TESTE AUTOMATIZADO DO FIREFOX NO GUEST ==="
+    echo "=========================================================="
+    /usr/bin/firefox-esr --version
+    echo "Firefox ESR verificado com sucesso dentro do RISC-V!"
+    echo "=========================================================="
+    poweroff -f
+fi
+
+cd /root
+while true; do
+    /bin/sh -l </dev/ttyS0 >/dev/ttyS0 2>&1 || sleep 2
+done

@@ -1,0 +1,26 @@
+# Script de Sintese com Yosys para o SoC RISC-V
+# Leitura dos Arquivos Verilog
+read_verilog -I../core ../core/alu.v
+read_verilog -I../core ../core/regfile.v
+read_verilog -I../core ../core/decoder.v
+read_verilog -I../core ../core/branch_unit.v
+read_verilog -I../core ../core/hazard_unit.v
+read_verilog -I../core ../core/csr_unit.v
+read_verilog -I../core ../core/riscv_core.v
+read_verilog -I../core ../soc/ram_controller.v
+read_verilog -I../core ../soc/uart.v
+read_verilog -I../core ../soc/clint_timer.v
+read_verilog -I../core ../soc/gpio.v
+read_verilog -I../core ../soc/vga_controller.v
+read_verilog -I../core ../soc/bus_interconnect.v
+read_verilog -I../core ../soc/soc_top.v
+
+# Definir Top-Level
+hierarchy -check -top soc_top
+
+# Sintese direcionada para FPGA Xilinx Serie 7 (Artix-7 / Spartan-7 / Zynq)
+# Mapeia memorias para Block RAMs (RAMB18/RAMB36) e registradores para LUTs/FFs
+synth_xilinx -top soc_top -family xc7
+
+# Relatorio de Utilizacao de Recursos da FPGA
+stat

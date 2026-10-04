@@ -1,0 +1,227 @@
+{
+  "1": {
+    "id": 1,
+    "nome": "Tiago Maciel (Self-Verification)",
+    "email": "tiago@brmg.com.br",
+    "organizacao": "BRMG Research / Author",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:52:47",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "2": {
+    "id": 2,
+    "nome": "Palmer Dabbelt",
+    "email": "palmer@dabbelt.com",
+    "organizacao": "Linux Kernel RISC-V Subsystem Maintainer / Rivos",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:52:50",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "3": {
+    "id": 3,
+    "nome": "Paul Walmsley",
+    "email": "paul.walmsley@sifive.com",
+    "organizacao": "SiFive / Linux Kernel RISC-V Maintainer",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:52:53",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "4": {
+    "id": 4,
+    "nome": "Alistair Francis",
+    "email": "alistair.francis@wdc.com",
+    "organizacao": "Western Digital / QEMU RISC-V Subsystem Maintainer",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:52:56",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "5": {
+    "id": 5,
+    "nome": "Richard Henderson",
+    "email": "richard.henderson@linaro.org",
+    "organizacao": "Linaro / QEMU TCG Lead Maintainer",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:52:59",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "6": {
+    "id": 6,
+    "nome": "Krste Asanovic",
+    "email": "krste@berkeley.edu",
+    "organizacao": "UC Berkeley ASPIRE Lab / SiFive Co-Founder",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:02",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "7": {
+    "id": 7,
+    "nome": "David Patterson",
+    "email": "pattrsn@cs.berkeley.edu",
+    "organizacao": "UC Berkeley / Turing Award Laureate",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:05",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "8": {
+    "id": 8,
+    "nome": "Yunsup Lee",
+    "email": "yunsup@sifive.com",
+    "organizacao": "SiFive CTO & Co-Founder",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:08",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "9": {
+    "id": 9,
+    "nome": "Andrew Waterman",
+    "email": "andrew@sifive.com",
+    "organizacao": "SiFive Chief Engineer",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:10",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "10": {
+    "id": 10,
+    "nome": "Calista Redmond",
+    "email": "calista@riscv.org",
+    "organizacao": "RISC-V International CEO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:13",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "11": {
+    "id": 11,
+    "nome": "Luca Benini",
+    "email": "lbenini@iis.ee.ethz.ch",
+    "organizacao": "ETH Zurich / PULP Platform Director",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:16",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "12": {
+    "id": 12,
+    "nome": "Jim Keller",
+    "email": "keller@tenstorrent.com",
+    "organizacao": "Tenstorrent CEO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:18",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "13": {
+    "id": 13,
+    "nome": "Dave Ditzel",
+    "email": "ditzel@esperanto.ai",
+    "organizacao": "Esperanto Technologies Founder & CEO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:21",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "14": {
+    "id": 14,
+    "nome": "Balaji Baktha",
+    "email": "balaji@ventanamicro.com",
+    "organizacao": "Ventana Micro Systems CEO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:24",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "15": {
+    "id": 15,
+    "nome": "Charlie Hauck",
+    "email": "charlie@bluespec.com",
+    "organizacao": "Bluespec Inc. CEO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:27",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "16": {
+    "id": 16,
+    "nome": "Karel Miko",
+    "email": "kmiko@codasip.com",
+    "organizacao": "Codasip CTO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:30",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "17": {
+    "id": 17,
+    "nome": "Roger Espasa",
+    "email": "roger.espasa@semidynamics.com",
+    "organizacao": "Semidynamics CEO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:33",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "18": {
+    "id": 18,
+    "nome": "Alexander Redkin",
+    "email": "redkin@syntacore.com",
+    "organizacao": "Syntacore CEO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:36",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "19": {
+    "id": 19,
+    "nome": "Alex Bradbury",
+    "email": "asb@asbradbury.org",
+    "organizacao": "lowRISC Co-Founder & CTO",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:39",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "20": {
+    "id": 20,
+    "nome": "Rob Oshana",
+    "email": "roshana@chipsalliance.org",
+    "organizacao": "CHIPS Alliance Chairman",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:42",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "21": {
+    "id": 21,
+    "nome": "Thomas Petazzoni",
+    "email": "thomas.petazzoni@bootlin.com",
+    "organizacao": "Bootlin CTO / Buildroot Lead",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:45",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "22": {
+    "id": 22,
+    "nome": "Drew Fustini",
+    "email": "drew@beagleboard.org",
+    "organizacao": "BeagleBoard.org / RISC-V Ambassador",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:47",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "23": {
+    "id": 23,
+    "nome": "Aurelien Jarno",
+    "email": "aurel32@debian.org",
+    "organizacao": "Debian RISC-V Architecture Lead Porter",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:50",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "24": {
+    "id": 24,
+    "nome": "Heinrich Schuchardt",
+    "email": "heinrich.schuchardt@canonical.com",
+    "organizacao": "Canonical Ubuntu RISC-V Lead",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:53",
+    "doi": "10.5281/zenodo.23144294"
+  },
+  "25": {
+    "id": 25,
+    "nome": "David Abdurachmanov",
+    "email": "david.abdurachmanov@gmail.com",
+    "organizacao": "Red Hat RISC-V Architecture Specialist",
+    "status": "enviado_250_ok",
+    "timestamp": "2026-10-04 16:53:56",
+    "doi": "10.5281/zenodo.23144294"
+  }
+}
